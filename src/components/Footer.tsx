@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Lock, ShieldCheck, BadgeCheck } from "lucide-react";
+import { Instagram, Lock, ShieldCheck, BadgeCheck } from "lucide-react";
 import Contact from "./modals/Contact";
 
 export default function Footer() {
@@ -74,6 +74,22 @@ export default function Footer() {
               className="text-sm text-gray-400 hover:text-white transition"
             >
               (31) 99670-2827
+            </a>
+
+            <a
+              href="https://www.instagram.com/moveplus_oficial"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-3 inline-flex items-center gap-2 self-center lg:self-start rounded-full p-[1.5px] bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 transition-transform"
+            >
+              <span className="flex items-center gap-2 bg-[#0f0f0f] rounded-full pl-1.5 pr-4 py-1.5">
+                <span className="flex items-center justify-center w-7 h-7 rounded-full bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600">
+                  <Instagram className="w-4 h-4 text-white" />
+                </span>
+                <span className="text-sm font-semibold text-white">
+                  @moveplus_oficial
+                </span>
+              </span>
             </a>
           </div>
         </div>
